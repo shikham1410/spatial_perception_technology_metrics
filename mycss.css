@@ -1,0 +1,40 @@
+* {
+    border: 1px solid grey
+}
+#topnav {
+    width:200px;
+    margin:auto00;
+}
+        table, th, td {
+            border :  1px solid black;
+            border:1px solid black;
+            border-radius:50px;
+            padding: 10px;
+            border-collapse :collapse;
+        }
+        
+        
+        h1:hover {
+         color: #ffb3bf;
+         background-color:#b47e8d;
+         font-style : italic;
+         font family:  serif;
+         font  size: 10em;
+        font weight:bold;
+        text-align:center;
+        text-indent: 50px;
+        }
+        .topnav {
+            background-color : burlywood;
+        }
+#main {
+    position:relative
+        top:100px;
+        left:200px;
+        background-color : aqua;
+        width: 10%;       
+}
+#tabledata {
+    background-color: antiquewhite;
+    width: 80%;
+}

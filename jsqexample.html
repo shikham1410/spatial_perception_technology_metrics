@@ -1,0 +1,53 @@
+<body>
+    <h1 id="greeting">Hello World</h1>
+    
+    <script>
+        var topic = "AI";
+        let date = "11/1/23";
+        const course = "INFO 654";
+        document.write("Course is: " + course);
+        
+        if (topic == "AI") {
+            document.write("<p>We are covering AI</p>");
+        } else {
+            document.write("<p>Topic is TBD</p>");
+        }
+          let myfirstarray = ["Hello", "World", 10,"Sunny", 25.40];
+       
+        document.write(myfirstarray[1]);
+        
+        for (let i = 1; i < 5; ++i) {
+            document.write("<div>"+myfirstarray[i]+"</div>");
+        }
+        function showgreeting(fname, lname) {
+        document.write("Hello " + fname + " " + lname);
+    }
+
+    showgreeting("Shikha", "Mehta");
+    showgreeting("Monica", "Maceli");
+        
+
+    let mynamearray = ["Shikha", "Hiren", "Mehta"];
+
+    document.write("<ul>");
+    for (let i = 0; i < mynamearray.length; i++) {
+        document.write("<li>" + mynamearray[i] + "</li>");
+    }
+    document.write("</ul>");
+
+    function showname(fname, mname, lname) {
+        document.write("<ul>");
+        document.write("<li>" + fname + "</li>");
+        document.write("<li>" + mname + "</li>");
+        document.write("<li>" + lname + "</li>");
+        document.write("</ul>");
+    }
+
+    // Call the showname function with specific names
+    showname("Anuj", "Rahul", "Gala");
+
+
+        
+        
+    </script>
+</body>

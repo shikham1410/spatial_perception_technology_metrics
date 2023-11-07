@@ -1,0 +1,280 @@
+* {font-family: sans-serif;}
+
+.NavBar {margin-bottom: 2em;
+border-bottom: 4px solid #c03e5d;}
+
+.Main {
+    margin:2em;
+}
+.PerceivePage {
+    background-color: #c03e5d;
+    text-decoration: none;
+    margin: 2em;
+    padding: .5em;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #B7D4D7;
+}
+.PerceivePage:hover, 
+.ApplyPage:hover,
+.ContactPage:hover {
+    background-color: #c03e5d;
+    font-weight:bold;
+    color:white;
+    box-shadow: 2px 2px 2px #B7D4D7;
+    
+}
+.ApplyPage {
+    background-color: #B7D4D7;
+    text-decoration: none;
+    margin: 1em;
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+}
+.ContactPage {
+    background-color: #B7D4D7;
+    text-decoration: none;
+    margin: 2em;
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+}
+.ShikhaMehta {
+    padding: .5em;
+    font-weight: bold;
+    text-decoration:underline wavy;
+    color:#c03e5d;
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 15px;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+}
+h1 {
+    color:#C13E5D;
+    text-align: center;
+    font-size:42px;
+    font-weight:1000;
+}
+h2 {
+    font-size: 22px;
+    color:#B7D4D7;
+ 
+    text-decoration-color: #C13E5D;
+    padding: 2em;
+    text-align: center;
+}
+
+h3 { 
+   padding: 10em;
+   padding-top: 2em;
+    padding-bottom: 2em;
+   color:#B7D4D7;
+ text-align: center;
+    font-size: 20px;
+}
+.Enlarge {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #859293;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.ThesisPDF {display:block;
+    text-align: center;
+padding:50px;}
+
+.ThesisPDFLink {
+    margin: .5em;
+}
+.Objectives {color:#000000;
+   
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 3em;
+   
+}
+.Information {
+    font-style: italic;
+      color:#000000;
+    padding: 20px;
+    padding-left: 3em;
+    border-bottom: 4px solid #c03e5d;
+}
+.Patterns {
+    padding: 3em;
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.edit {color:#C13E5D;
+    font-size: 27px;
+    text-decoration:underline wavy;
+    text-decoration-thickness: 2px;
+}
+.edit2 {color:#C13E5D;
+    font-size: 22px;
+    text-decoration:underline wavy;
+    text-decoration-thickness: 1.5px;}
+.ResearchImages {
+    text-align: center;
+}
+.Diagram1 
+{display:flex;
+    width:900px;
+    height:auto;
+    margin:auto;}
+
+.Diagram2 
+{   display:block;
+    width:900px;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    padding:2em;}
+.Case1
+{   display:block;
+    width:900px;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    padding:2em;}
+.Case2
+{   display:block;
+    width:900px;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    padding:2em;}
+.Case3
+{   display:block;
+    width:900px;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    padding:2em;}
+.Case4
+{   display:block;
+    width:900px;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    padding:2em;}
+
+.Description,
+.Description2{
+   text-align: center; 
+    margin: 0 auto;     
+    max-width: 1000px;  
+    padding: 4em;
+}
+.Diagram4 
+{   display:block;
+    width:1000px;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    padding:2em;}
+
+.Diagram5
+{   display:block;
+    width:1000px;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    padding:2em;}
+
+.Unorderedlist { 
+   flex-direction: row; 
+   width: 510px; 
+   background-color: #B7D4D7; 
+   border-radius: 5px;
+   padding:4em;
+   margin: 3em;
+   height: 350px;
+   margin-bottom: 15px;
+} 
+
+.Unorderedlist, .Unorderedlist2 {
+    display: inline-block;
+    vertical-align: top;
+
+}
+.Unorderedlist2 {
+   width: 510px; 
+   background-color: #B7D4D7; 
+   border-radius: 5px;
+   padding:4em;
+   margin: 3em;
+   height: 350px;
+   margin-bottom: 15px;
+} 
+
+
+.ContactInfo {
+    padding: .5em;
+}
+.Image1 
+{display:flex;
+    width:1000px;
+    height:auto;
+    margin:auto;}
+
+.Image2 
+{   display:block;
+    width:1000px;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    padding:2em;}
+.Image3
+{   display:block;
+    width:1000px;
+    height:auto;
+    text-align: center;
+    margin:auto;
+    padding:2em;}
+
+/*https://www.w3schools.com/tags/tag_footer.asp Referred for footer code*/
+footer {
+    background-color: #B7D4D7; 
+    color: #ccc; 
+    padding: 20px; 
+    text-align: center; 
+    margin-top: auto; 
+}
+.ContactIntro {
+    text-align:left; 
+    margin-left: 20px;
+    color:black;
+}
+p {
+    color: #000000; 
+    font-size: 16px;
+    text-align:left; 
+    margin-left: 20px;
+}
+.portfolio-link {
+    color: #000000;
+    text-decoration: underline wavy;
+    padding: 1em;
+}
+
+.email-link {
+    color: #000000; 
+    text-decoration: underline wavy;
+    padding: 1em;
+}
+.linkedin-link{
+    color: #000000;
+    text-decoration: underline wavy;
+    padding: 1em;
+    margin-bottom: 1em;
+}

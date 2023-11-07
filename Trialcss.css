@@ -1,0 +1,35 @@
+* {background-color: azure}
+        table, th, td {
+            border-bottom-color: 2px solid black;
+        }
+        h1 {
+        border : 3px solid blue;
+        padding : 5px;
+            background-color:cyan;
+        }
+        h2 {
+            font-style: italic;
+            text-align: center;
+        }
+        h3{
+            text-decoration:underline;
+            text-align: center;
+        }
+        img  {
+           float: left;
+            width:1000px;
+            height:600px;
+            padding:50px;
+}
+#RightNav {
+    background-color: aquamarine;
+    text-align:right;
+    position:absolute;
+    float:right;
+    width: 200px;
+    padding: 50px;
+}
+#LeftNav {
+    float:left
+}
+    

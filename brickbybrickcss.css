@@ -1,0 +1,69 @@
+
+.* {
+    background-color: beige
+}
+h1, h2 {
+    font-family: sans-serif;
+    font-size: 30pt;
+    text-indent: 200px;
+}
+.Firm Graphic {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font color: white
+}
+
+.rectangle:hover {
+    background-color: pink;
+    margin-left: 10em;
+    
+}
+
+.divider {
+/*
+    position: absolute;
+    left: 50%;
+    bottom: -120%;
+*/
+    margin-left: 10em;
+    width: 200px;
+    height: 100px;
+    background-color: #f3f3f3;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.rectangle2 {
+    width: 200px;
+    height: 100px;
+    background-color: #f3f3f3;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: 
+}

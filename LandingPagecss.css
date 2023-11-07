@@ -1,0 +1,298 @@
+* {font-family: sans-serif;
+ background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+     }
+
+.NavBar {margin-bottom: 2em;
+border-bottom: 4px solid #c03e5d;}
+
+.Main {
+    margin:2em;
+}
+.PerceivePage {
+    background-color: #B7D4D7;
+    text-decoration: none;
+    margin: 2em;
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+}
+.PerceivePage:hover, 
+.ApplyPage:hover,
+.ContactPage:hover,
+.ShikhaMehta:hover {
+    background-color: #c03e5d;
+    font-weight:bold;
+    color:#c03e5d;
+    box-shadow: 2px 2px 2px #c03e5d;
+    
+}
+.ApplyPage {
+    background-color: #B7D4D7;
+    text-decoration: none;
+    margin: 1em;
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+}
+.ContactPage {
+    background-color: #B7D4D7;
+    text-decoration: none;
+    margin: 2em;
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+}
+
+.ShikhaMehta {
+    padding: .5em;
+    font-weight: bold;
+    text-decoration:underline wavy;
+    color:#c03e5d;
+    font-size: 20px;
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 15px;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+}
+
+h1 {
+    color:#C13E5D;
+    text-align: center;
+    font-size:42px;
+    font-weight:1000;
+}
+.geometry,
+.function,
+.standardization,
+.optimization{
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+    width: 100px;
+    height: 20px;
+    margin-left: 20em;
+    margin-bottom: 1em;
+    margin-top: 8em;
+}
+.people,
+.usability{
+    color:#000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+    margin-left: 25em;
+    width: 80px;
+    height: 20px;
+    padding: .5em;
+    margin-bottom: 1em;
+}
+
+.productiontechnology,
+.spatialexpressions,
+.occupant-spacerelation{
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+    margin-left: 55em;
+    width: 200px;
+    height: 20px;
+    margin-bottom: 1em;
+}
+.attributes,
+.context,
+.customization,
+.abstraction {
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+    margin-left: 47em;
+    width: 150px;
+    height: 20px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.occupantspacerelation,
+.materialresponse {
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+    margin-left: 8em;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 1em;
+}
+.climate {
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+    margin-left: 30em;
+    width: 80px;
+    height: 20px;
+    margin-bottom: 1em;
+}
+.culture,
+.regionalism{
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    justify-content: center;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+    margin-left: 60em;
+    width: 100px;
+    height: 20px;
+    margin-bottom: 1em;
+}
+.traditionalgeometries,
+.userperception,
+.contextualdifference{
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    justify-content: center;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+    margin-left: 30em;
+    margin-left: 20em;
+    width: 200px;
+    height: 20px;
+    display: flex;
+    margin-bottom: 1em;
+}
+.complexityandmathematics,
+.materialassociation,
+.viability,
+.spacemakingelement {
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    justify-content: center;
+    background-image: linear-gradient(to right, #B7D4D7 30%, #ffffff 70%);
+    margin-left: 70em;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    margin-bottom: 1em;
+}
+.standardization {
+    background-color: #B7D4D7;
+    margin: 1em;
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+.prefabrication,
+.systemintegration {
+    background-color: #B7D4D7;
+    margin: 1em;
+    padding: .5em;
+    color:#000000;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    margin-left: 33em;
+    margin-bottom: 1em;
+}
+.attributes:hover,
+.geometry:hover,
+.traditionalgeometries:hover,
+.function:hover,
+.context:hover,
+.usability:hover,
+.userperception:hover,
+.optimization:hover,
+.customization:hover,
+.contextualdifference:hover,
+.abstraction:hover,
+.prefabrication:hover,
+.standardization:hover{
+    margin-left: 32em;
+    font-weight:bold;
+    color:#c03e5d;
+    box-shadow: 2px 2px 2px #c03e5d;
+}
+.people:hover,
+.climate:hover,
+.materialresponse:hover,
+.occupantspacerelation:hover,
+.systemintegration:hover{
+    margin-left: 20em;
+    font-weight:bold;
+    color:#c03e5d;
+    box-shadow: 2px 2px 2px #c03e5d;
+}
+.productiontechnology:hover,
+.culture:hover,
+.complexityandmathematics:hover,
+.materialassociation:hover,
+.regionalism:hover,
+.spatialexpressions:hover,
+.viability:hover,
+.spacemakingelement:hover{
+    margin-left: 75em;
+    font-weight:bold;
+    color:#c03e5d;
+    box-shadow: 2px 2px 2px #c03e5d;
+}
+/*https://www.w3schools.com/tags/tag_footer.asp Referred for footer code*/
+footer {
+    background-color: #B7D4D7; 
+    color: #ccc; 
+    padding: 20px; 
+    text-align: center; 
+    margin-top: auto; 
+}
+.ContactIntro {
+    text-align:left; 
+    margin-left: 20px;
+}
+p {
+    color: #000000; 
+    font-size: 16px;
+    text-align:left; 
+    margin-left: 20px;
+}
+.portfolio-link {
+    color: #000000;
+    text-decoration: underline wavy;
+    background-image: linear-gradient(to left, #B7D4D7 30%, #ffffff 70%);
+    padding: 1em;
+}
+
+.email-link {
+    color: #000000;
+    text-decoration: underline wavy;
+    background-image: linear-gradient(to left, #B7D4D7 30%, #ffffff 70%);
+    padding: 1em;
+}
+.linkedin-link {
+    color: #000000;
+    text-decoration: underline wavy;
+    background-image: linear-gradient(to left, #B7D4D7 30%, #ffffff 70%);
+    padding: 1em;
+    margin-bottom: 1em;
+}
